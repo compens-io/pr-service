@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "pr-closed",
+      "connection": "compensiostorage_STORAGE"
+    }
+  ],
+  "scriptFile": "../dist/pr-closed/index.js"
+}

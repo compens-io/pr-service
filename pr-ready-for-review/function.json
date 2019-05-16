@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "pr-ready-for-review",
+      "connection": "compensiostorage_STORAGE"
+    }
+  ],
+  "scriptFile": "../dist/pr-ready-for-review/index.js"
+}
